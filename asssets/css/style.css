@@ -1,0 +1,261 @@
+.html{
+     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    flex-basis: 400px;
+}
+
+.hero-img{
+    flex-grow: 1;
+}
+
+.hero-heading{
+    flex-grow: 1;
+}
+
+#main-div {
+    padding: 100px;
+}
+
+.burger-menu-btn{
+    display: none;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+    z-index: 9998;
+    box-shadow: 0 0 20px black;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: deeppink;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.site-identity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-identity img{
+    width: 40px;
+    height: 40px;
+}
+
+.hero-heading h1{
+ font-size: 72px;
+}
+
+.hero-botton{
+    background-color: palevioletred;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.menu-container-mobile{
+    display: none;
+}
+
+.menu-btn a{
+    color: white !important;
+}
+
+.menu-btn{
+    background-color: deeppink;
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.menu-btn:hover{
+    background-color: darksalmon;
+    border-radius: 20px;
+    transition: all;
+}
+
+.menu-btn a:hover{
+    color: black !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.sub-heading{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.hero-botton button{
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.hero-botton button:hover{
+    background-color: hotpink;
+}
+
+.small-text{
+    color: black;
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.number{
+    display: none;
+}
+
+.hire-me-btn:hover + .number{
+    display: flex;
+}
+
+.section-2{
+    height: 400px;
+    width: 100%;
+}
+
+.section2-div-1{
+    display: flex;
+}
+
+.image-cont{
+    background-color: palevioletred;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section2-2{
+ display: flex;
+}
+
+.about-kirby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+
+.about-story{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    color: black;
+}
+
+.section-3{
+    height: 400px;
+    width: 100%;
+    padding: 200px 0;
+}
+
+.section3-div-1{
+    display: flex;
+}
+
+.image-cont2{
+    background-color: palevioletred;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section3-3{
+    display: flex;
+}
+
+.projects-story{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    color: black;
+}
+
+.projects-kirby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+
+.section-4{
+    height: 400px;
+    width: 100%;
+    padding: 200px 0;
+}
+
+.section4-div-1{
+    display: flex;
+}
+
+.image-cont3{
+    background-color: palevioletred;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section4-4{
+    display: flex;
+}
+
+.works-story{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 900;
+    color: black;
+}
+
+.works-kirby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}

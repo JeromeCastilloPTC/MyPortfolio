@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="asssets/css/style.css">
+    <link rel="stylesheet" href="asssets/css/mobile.css">
+    <link rel="stylesheet" href="asssets/css/tablet.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a href="#main-div" style="text-decoration: none; color: black;">
+            <div class="site-identity">
+                <img src="asssets/images/Kirby_Icon.png" alt="Site Logo">
+                <h4>Mr Kirby</h4>
+            </div>
+        </a>
+        <div class="menu-container">
+            <ul class="nav-menu">
+                <li><a href="#main-div">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li class="menu-btn"><a href="#"></a>Feed Me</li>
+            </ul>
+        </div>
+
+        <div class="burger-menu-btn">
+            <img class="menu-btn" src="asssets/images/burger.png" alt="" onclick="toggleMenu()">
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="menu-container-mobile">
+        <img class="close-btn" src="asssets/images/close.png" alt="" onclick="toggleMenu()">
+        <ul class="nav-menu-mobile">
+            <li><a href="#main-div">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li class="menu-btn"><a href="#"></a>Feed Me</li>
+        </ul>
+    </div>
+
+    <!-- hero / Banner -->
+    <div id="main-div" class="hero">
+       </div>
+          <img class="hero-img" src="asssets/images/download.jpg" alt="hero image">
+       </div>
+       <div class="hero-heading">
+           <h1>Mr Kirby</h1>
+           <p class="sub-heading">Remember Always Call me when theres Trouble in Happy Land</p>
+           <div class="hero-botton">
+               <button class="hire-me-btn" style="margin-right: 15px;">Hire Me or be Eaten</button>
+               <p class="number">09773552720</p>
+               <button>Contact Me for Food</button>
+           </div>
+           <p class="small-text">And Always Pick Me In Smash Bros!</p>
+       </div>
+    </div>
+       
+
+    <div class="section-2">
+        <div class="section2-div-1">
+            <div style="width: 50%;"></div>
+            <div class="image-cont">
+                <img src="asssets/images/Kirby Food.jpg" alt="">
+            </div>
+        </div>
+        <div class="section2-2" id="about">
+           <p class="about-story">What is the story about Kirby?</p>
+           <p class="about-kirby">Kirby can be described as a naïve, cheery, and childlike alien creature who made his home in Dream Land after arriving from elsewhere, with his true origin being unknown.</p>
+        </div>
+    </div>
+    
+
+    <div class="section-3">
+        <div class="section3-div-1">
+            <div style="width: 10%;"></div>
+            <div class="image-cont2">
+                <img src="asssets/images/Kirby Enemies.jpg" alt="">
+            </div>
+        </div>
+        <div class="section3-3" id="Projects">
+            <p class="projects-story">Who are They?</p>
+            <p class="projects-kirby">Waddle Dee are red-orange creatures with pear-shaped faces and yellow feet who serve as the most basic enemy in most Kirby games. They have appeared in every Kirby game to date starting with Kirby's Dream Land.</p>
+        </div>
+    </div>
+
+    
+    <div class="section-4">
+        <div class="section4-div-1">
+            <div style="width: 10%;"></div>
+            <div class="image-cont3">
+                <img src="asssets/images/Kirby Copy ability.jpg" alt="">
+            </div>
+        </div>
+        <div class="sectiion4-4" id="Works">
+            <p class="works-story">What are Kirbys Powers?</p>
+            <p class="works-kirby">Kirby's signature skill is his ability to inhale objects or creatures and spit them out as projectiles, as well as the ability to suck in air to float over obstacles. His Copy Ability grants him the power to adopt the abilities of the creatures he inhales, while also wearing various costumes or transforming his shape.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            document.querySelector(".menu-container-mobile").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
