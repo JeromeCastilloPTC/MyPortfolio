@@ -53,7 +53,7 @@
            <h1>Mr Kirby</h1>
            <p class="sub-heading">Remember Always Call me when theres Trouble in Happy Land</p>
            <div class="hero-botton">
-               <button class="hire-me-btn" style="margin-right: 15px;">Hire Me or be Eaten</button>
+               <button class="hire-me-btn" onclick="checker()" margin-right: 15px;">Hire Me or be Eaten</button>
                <p class="number">09773552720</p>
                <button>Contact Me for Food</button>
            </div>
@@ -106,6 +106,21 @@
     <script>
         function toggleMenu(){
             document.querySelector(".menu-container-mobile").classList.toggle("active");
+        }
+    </script>
+    <script type="text/javascript">
+        function checker(){
+            alert("Welcome To Javascript");
+            var name = prompt("What is your Name?");
+            var ok = confirm("Do you like javascript");
+            if (ok == false)
+            {
+                txt = "Hello!,"  + name +  "Hope you learn to enjoy It!";
+            } 
+            else {
+                txt = "Hello!,"  + name +  "Glad you like Javascript!";
+            }
+            alert(txt);
         }
     </script>
 </body>
