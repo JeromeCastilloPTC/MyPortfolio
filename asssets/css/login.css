@@ -1,0 +1,43 @@
+.login-btn{
+    background-color: hotpink;
+    font-style: italic;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.response-btn{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: gray;
+    color: black;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 600px;
+    font-style: italic;
+    color: black;
+    padding: 10px;
+}
+
+.login-form{
+    background-color: pink;
+}
+
+.login-img{
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.login-img-2{
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
